@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+            box-sizing: 0px;
+ }
+  body{
+                background-color: white;
+                text-align: center;
+                font-family:Arial, Helvetica, sans-serif;
+    }
+.a{
+               width: auto;
+               height: 500px;
+                background-color: whitesmoke;
+                padding: 5px;
+            }
+            .b{
+                background-color: white;
+                border-radius: 10px;
+                margin:0px 500px 250px 500px;
+                border:2px solid white;
+               
+            }
+            input[type=email],[type=password]{
+                width:300px;
+                padding:10px;
+                border:1px solid gray;
+                border-radius: 5px; 
+                font-size:medium;
+                
+            }
+            input[type="submit"]{
+                background-color: rgb(0, 102, 255);
+                color: White;
+                width: 250px;
+                padding:5px;
+                border-color: rgb(0, 102, 255);
+                border-radius: 5px;
+                text-decoration: none;
+                font-size: medium;
+                
+            }
+            a{
+                text-decoration: none;
+                font-size: small;
+            }

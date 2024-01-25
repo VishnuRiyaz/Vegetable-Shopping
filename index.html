@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+<link rel="stylesheet" href="CSS/index.css">
+<script src="HTML/cart.js"></script>
+</head>
+<body>
+ 
+    <div class="navbar">
+      <a href="#"><img src="Image/v.png" alt="shop">
+      <a href="#" class="list-group-item"><i class="fa fa-home"></i> Home</a>
+      <a href="#menu" class="list-group-item"><i class="fa fa-th-list">Menu</i></a>
+      <a href="#order" class="list-group-item"><i class="fa fa-home"></i> Order</a>
+      <a href="#about" class="list-group-item"><i class="fa fa-book"></i> About
+        Us</a>
+      
+      <a href="#feedback" class="list-group-item"><i class="fa fa-edit"></i>FeedBack</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="search"class="search" placeholder="V-Shopping">
+      <a href="#" class="list-group-item"><i class="fa fa-search"></i>Search</a>
+      <a href="login.html" class="list-group-item" ><i class="fa fa-key"></i>Login
+      </a>
+      <a href="signup.html" class="list-group-item" ><i class="fa fa-handshake-o"></i>Signin
+      </a>
+       </div>
+  <div class="b"><br>
+   <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <center>
+        <img src="Image/veg.jpg" alt="Veg" class="d-block" style="width:80%;height:500px;">
+        <h2>Vegetables</h2>
+      <p>
+        <b>Boost your immune system</b>: Vitamin C is a key nutrient that is found in many different vegetables. This vitamin helps boost your immune system and keep your immunity strong.</p></center>
+    </div>
+    <div class="carousel-item"><center>
+      <img src="Image/veg2.jpg" alt="Mob" class="d-block" style="width:80%;height:500px"> <h2>Vegetable</h2>
+      <p>
+            <b>Reduces the risk of developing kidney stones</b>: Vegetables rich in potassium prevent the formation of kidney stones. However, people with kidney stones should limit the consumption of foods high in oxalate.</p>
+        </center>
+    </div>
+    <div class="carousel-item">
+      <center>
+        <img src="Image/veg3.jpg" alt="Cricker" class="d-block" style="width:80%;height:500px"> <h2>Vegetable</h2>
+        <p>
+          <b>Keep your brain young</b>: Leafy greens are full of antioxidants and folate that help reduce your risk of developing Alzheimer’s disease and dementia.</p></center>
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button><br><br>
+</div>
+</div>
+    <br>
+    <div class="c" id="menu">
+      <center><h2 style="margin-bottom: 15px;">Health Vegetables</h2></center>
+
+      <div class="row" style="margin: 0px;padding:0px;">&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="card"><br>
+        <div class="col"><center><img src="Image/tomato.jpg" alt="" ><h2><b>Tomato - (1Kg-20Rs)</b></h2></center>&nbsp;<p>Adding tomatoes to the diet has a positive effect on blood lipid levels and blood pressure thanks to its lycopene content</p></div><button onclick="buy()">Buy</button><button onclick="addToCart('Tomato', 20.00)">Add Cart</button>
+      </div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <div class="card"><br>
+        <div class="col"><center><img src="Image/cap.jpg"" alt=""><h2><b>Capsicum - (1Kg-16Rs)</b></h2></center>&nbsp;<p>Capsicum may help in managing blood glucose, dyslipidemia, cancers, and healing wounds.</p></div><button onclick="buy()">Buy</button><button onclick="addToCart('Capsicum', 15.99)">Add Cart</button>
+      </div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <div class="card"><br>
+        <div class="col"><center><img src="Image\carrot.jpg"" alt=""><h2><b>Carrot - (1Kg-14Rs)</b></h2></center>&nbsp;<p>Carrots are full of benefits—they may promote healthy vision, balance your blood sugar, help with weight management, lower your risk of cancer, regulate blood pressure, reduce heart disease, improve immunity, and boost brain health</p></div><button onclick="buy()">Buy</button><button onclick="addToCart('Carrot', 13.99)">Add Cart</button></div>
+      </div>
+      <div class="row" style="margin: 0px;padding: 0px;margin-top:15px ;">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="card"><br>
+        <div class="col"><center><img src="Image\chayote.jpg"alt="" ><h2><b>Chayote - (1Kg-21Rs)</b></h2></center>&nbsp;<p>Chayote helps in bringing down high blood pressure, improving liver function, preventing cancer, inflammation, reducing the signs of aging.</p></div><button onclick="buy()">Buy</button><button onclick="addToCart('Chayote', 20.99)">Add Cart</button></div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="card"><br>
+        <div class="col"><center><img src="Image\onion.jpg"" alt=""><h2><b>Onion - (1Kg-21Rs)</b></h2></center>&nbsp;<p>onions are quite safe to consume, rarely they may harm your health if you have any underlying health conditions or when you consume them in excess.</p></div><button onclick="buy()">Buy</button><button onclick="addToCart('Onion', 20.99)">Add Cart</button></div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="card"><br>
+        <div class="col"><center><img src="Image\radish.jpg"" alt=""><h2><b>Radish - (1Kg-11Rs)</b></h2></center>&nbsp;
+        <p> Radishes are natural diuretics (foods that lower the fluid in your body, causing you to pee more), eating too many might make you dehydrated.</p></div><button onclick="buy()">Buy</button><button onclick="addToCart('Radish', 10.99)">Add Cart</button></div>
+      </div>
+      <div class="row" style="margin: 0px;padding: 0px;margin-top:15px ;">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="card"><br>
+        <div class="col"><center><img src="Image/ginger.jpg" alt="" ><h2><b>Ginger - (1Kg-16Rs)</b></h2></center>&nbsp;<p>Eating ginger can cut down on fermentation, constipation and other causes of bloating and intestinal gas. Wear and tear on cells. Ginger contains antioxidants. </p></div><button onclick="buy()">Buy</button><button onclick="addToCart('Ginger', 15.99)">Add Cart</button></div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="card"><br>
+        <div class="col"><center><img src="Image/potato.jpg"" alt=""><h2><b>Potato - (1Kg-19Rs)</b></h2></center>&nbsp;<p>They're rich in vitamin C, which is an antioxidant. Potatoes were a life-saving food source in early times because the vitamin C prevented scurvy</p></div><button onclick="buy()">Buy</button><button onclick="addToCart('Potato', 18.99)">Add Cart</button></div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="card"><br>
+        <div class="col"><center><img src="Image/Spinach.jpg"" alt=""><h2><b>Spinash - (1Kg-30Rs)</b></h2></center>&nbsp;<p>Spinach. The leafy green is packed with nutrients, but you'll absorb more calcium and iron if you eat it cooked. </p></div><button onclick="buy()">Buy</button><button onclick="addToCart('Spinash', 29.99)">Add Cart</button></div>
+      </div>
+
+     <br>
+     <center>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Cart</h3>
+                <ul id="cart-items" class="list-group">
+                 </ul>
+                <p>Total: <span id="cart-total">0.00</span></p>
+                <button onclick="checkout()" style="margin-left: 60px;">Checkout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </center>
+      <br>
+  </div> 
+
+  <div class="d" id="order"><br>
+    <center><h3>Order Details</h3></center>
+    <div class="row">
+      <div class="col"><h4>Your Name</h4><input type="text"placeholder="Enter the name"></div>
+      <div class="col"><h4>Your Number</h4><input type="number"placeholder="Enter the name"></div>
+    </div>
+    <div class="row">
+      <div class="col"><h4>Select Your vegetable</h4><input type="text"placeholder="Vegetables"style="width:96%"></div>
+    </div>
+    <div class="row">
+      <div class="col"><h4>Address</h4><textarea name="" id="" cols="20" rows="10"></textarea></div>
+      <div class="col"><h4>Your Number</h4><input type="number"placeholder="Enter the name"></div><br>
+      <div class="col"><h4>Your city</h4><input type="text"placeholder="Enter the name"></div>
+      
+    </div><center>
+    <input type="submit" value="Order"></center>
+    <br>
+  </div>
+  <div class="f" id="feedback">
+<center><h2 Style="color:blue ">FeedBack</h2></center>
+<div class="row">
+<div class="col">
+<img src="V:\vscode for frontend\HTML\img\ASSETS/icon.png" alt="">&nbsp;<label >Vishnu chandar</label>
+<h2>Star Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+<div class="col">
+  <img src="V:\vscode for frontend\HTML\webpage\Image/h3.jpg" alt="">&nbsp;<label >Dinesh</label>
+  <h2>Star Rating</h2>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  </div>
+  <div class="col">
+    <img src="V:\vscode for frontend\HTML\webpage\Image/h2.jpg" alt="">&nbsp;<label >Karthick</label>
+    <h2>Star Rating</h2>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    </div>
+    <div class="col">
+      <img src="V:\vscode for frontend\HTML\webpage\Image/h1.jpg" alt="">&nbsp;<label >Arun</label>
+      <h2>Star Rating</h2>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      </div>
+      <div class="col">
+        <img src="V:\vscode for frontend\HTML\webpage\Image/h4.jpg" alt="">&nbsp;<label >Barath   </label>
+        <h2>Star Rating</h2>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        </div>
+      
+</div>
+
+    </div>
+  <div class="e" id="about">
+    <center><h2>About us</h2></center>
+  <footer class="footer">  
+    <div class="container">  
+    <div class="row">  
+    <div class="col-md-3 m-b-30">  
+    <div class="footer-title m-t-5 m-b-20 p-b-8">  
+    About us  
+    </div>  
+    <p class="white-text">  
+    V-Shopping  
+    </p>  
+    </div>  
+    <div class="col-md-3 m-b-30">  
+    <div class="footer-title m-t-5 m-b-20 p-b-8">  
+    Latest themes  
+    </div>  
+    <div class="footer-links">  
+    <a href="#">  
+    Appointment  
+    </a> <br> 
+    <a href="#">  
+    Health center  
+    </a> <br> 
+    <a href="#">  
+    Quality  
+    </a>  <br>
+    <a href="#">  
+    Wallstreet  
+    </a>  
+    </div>  
+    </div>  
+    <div class="col-md-3 m-b-30">  
+    <div class="footer-title m-t-5 m-b-20 p-b-8">  
+    Quick Links  
+    </div> 
+    <div class="footer-links">  
+    <a href="#">  
+    Blog  
+    </a>  <br>
+    <a href="#">  
+    FAQ  
+    </a><br>  
+    <a href="#" onclick="get()" >  
+    Terms & conditions  </button>
+    </a><script>function get(){
+      alert(hai);
+    } </script> <br> 
+    <a href="#">  
+    Privacy policy  
+    </a>  
+    </div>  
+    </div>  
+    <div class="col-md-3 m-b-30">  
+    <div class="footer-title m-t-5 m-b-20 p-b-8">  
+    Support  
+    </div>  
+    <div class="footer-links">  
+    <a href="#">  
+    Affiliate  
+    </a>  
+    <a href="#">  
+    Login  
+    </a>  
+    <a href="#">  
+    All theme package  
+    </a>  
+    <a href="#">  
+    Support forum  
+    </a>  
+    </div>  
+    <div class="footer-social-links m-t-30">  
+    <li> <a href="#">  
+    <i class="fa fa-facebook" aria-hidden="true"> </i> </a>  
+    <a href="#"> <i class="fa fa-twitter" aria-hidden="true"> </i> </a>  
+    <a href="#"> <i class="fa fa-linkedin" aria-hidden="true"> </i> </a>  
+    <a href="#"> <i class="fa fa-youtube" aria-hidden="true"> </i> </a>  
+    </li>  
+    </div>  
+    </div>  
+    </div>  
+    </div>  
+    </footer>  
+    
+  </div>
+
+  
+ 
+
+  
+    
+    
+</body>
+</html>
